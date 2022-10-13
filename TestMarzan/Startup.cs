@@ -10,7 +10,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TestMarzan.Data;
+using TestMarzan.Interfaces;
 using TestMarzan.Models;
+using TestMarzan.Services;
 
 namespace TestMarzan
 {
@@ -29,6 +31,10 @@ namespace TestMarzan
             services.AddControllersWithViews();
             services.AddDbContext<ContextDb>(options =>
                                              options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddScoped<IProduct, ProductServices>();
+            services.AddScoped<ICustomer, CustomerServices>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

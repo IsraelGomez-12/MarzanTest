@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v0wWisEZKhoLHeF83gXrYBYr/GhJtuId9/ZZVDJPXp5LMVKGS/UOSEyxzST7kq8DVdq1k+lJ+nhhWOoVXiiQWw==",
+  "dgSpecHash": "juub/MXhqG4mWNZLCkpXVQndMLQ96Ix+0Sy8s3ZPQ6MsdX9MhBohMSTdRTvHU+3HB6kyrnxzMFGr08pQLOLUkg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cristian.gomez\\Desktop\\TestMarzan\\TestMarzan\\TestMarzan.csproj",
+  "projectFilePath": "C:\\Users\\cristian.gomez\\Desktop\\GitHub\\MarzanTest\\TestMarzan\\TestMarzan.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cristian.gomez\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\cristian.gomez\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.30\\microsoft.aspnetcore.mvc.razor.extensions.3.1.30.nupkg.sha512",

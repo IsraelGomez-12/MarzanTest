@@ -8617,11 +8617,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cristian.gomez\\Desktop\\TestMarzan\\TestMarzan\\TestMarzan.csproj",
+      "projectUniqueName": "C:\\Users\\cristian.gomez\\Desktop\\GitHub\\MarzanTest\\TestMarzan\\TestMarzan.csproj",
       "projectName": "TestMarzan",
-      "projectPath": "C:\\Users\\cristian.gomez\\Desktop\\TestMarzan\\TestMarzan\\TestMarzan.csproj",
+      "projectPath": "C:\\Users\\cristian.gomez\\Desktop\\GitHub\\MarzanTest\\TestMarzan\\TestMarzan.csproj",
       "packagesPath": "C:\\Users\\cristian.gomez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cristian.gomez\\Desktop\\TestMarzan\\TestMarzan\\obj\\",
+      "outputPath": "C:\\Users\\cristian.gomez\\Desktop\\GitHub\\MarzanTest\\TestMarzan\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cristian.gomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
