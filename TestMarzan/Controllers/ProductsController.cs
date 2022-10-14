@@ -11,19 +11,24 @@ using TestMarzan.Models;
 
 namespace TestMarzan.Controllers
 {
+    /// <summary>
+    /// This Class represent controller of Product
+    /// </summary>
     public class ProductsController : Controller
     {
         private readonly IProduct _productServices;
 
+        /// <param name="productServices"<see cref="IProduct"/>></param>
         public ProductsController(IProduct productServices)
         {
             _productServices = productServices;
         }
 
         // GET: Products
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _productServices.GetProducts());
+            ViewData["CurrentFilter"] = searchString;
+            return View(await _productServices.GetProducts(searchString));
         }
 
         // GET: Products/Details/5

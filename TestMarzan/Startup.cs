@@ -34,7 +34,6 @@ namespace TestMarzan
 
             services.AddScoped<IProduct, ProductServices>();
             services.AddScoped<ICustomer, CustomerServices>();
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
